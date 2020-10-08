@@ -8,16 +8,16 @@ player2_answer = input("%s, do you want to choose rock, paper or scissors? " % p
 
 
 
-def compare(u1, u2):
-    if u1 == u2:
+def compare(answer1, answer2):
+    if answer1 == answer2:
         return("") #What message should you return here if both players give the same answer?
-    elif u1 == 'rock':
-        if u2 == 'scissors':
+    elif answer1 == 'rock':
+        if answer2 == 'scissors':
             return("") #What message should you return if answer1 is rock and answer2 is scissors?
         else:
             return("") #Hmmm this one may be tricky...what answer would you return here?
-    elif u1 == 'scissors':
-        if u2 == 'paper':
+    elif answer1 == 'scissors':
+        if answer2 == 'paper':
             return("") #What message would you return if answer1 is scissors and answer2 is paper
         else:
             return("") #What answer would you return here
